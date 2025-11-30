@@ -27,7 +27,7 @@ function animate() {
   document.documentElement.style.setProperty("--y", newY + "px");
 
   // smooth random size change
-  currentSize = currentSize + (targetSize - currentSize) * 0.05; git commit -m "first commit"
+  currentSize = currentSize + (targetSize - currentSize) * 0.05; 
   document.documentElement.style.setProperty("--shape", currentSize + "px");
 
   requestAnimationFrame(animate);
